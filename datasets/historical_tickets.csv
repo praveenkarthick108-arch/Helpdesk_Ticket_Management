@@ -1,0 +1,226 @@
+ticket_id,employee_name,department,issue_category,description,priority,status,resolution_notes,created_at,resolved_at
+1,Alice Johnson,Engineering,VPN Issue,Cannot connect to VPN from home office.,High,Resolved,Reconfigured VPN client and updated credentials.,2024-01-03 09:15:00,2024-01-03 14:30:00
+2,Bob Smith,Sales,Password Reset,Locked out of Salesforce account after too many failed attempts.,Medium,Resolved,Reset password and enforced MFA enrollment.,2024-01-05 10:00:00,2024-01-05 11:45:00
+3,Carol White,Marketing,Software Installation,Need Adobe Creative Suite installed on new MacBook.,Medium,Resolved,Installed Adobe CC and configured licenses.,2024-01-07 08:30:00,2024-01-08 09:00:00
+4,David Lee,HR,Laptop Issue,Laptop overheating and shutting down randomly.,High,Resolved,Replaced thermal paste and cleaned cooling vents.,2024-01-08 13:00:00,2024-01-10 15:00:00
+5,Emma Davis,Finance,Email Access,Cannot send emails externally — bouncing back.,High,Resolved,Fixed SPF/DKIM configuration on mail relay.,2024-01-10 09:45:00,2024-01-10 16:00:00
+6,Frank Brown,Operations,Network Connectivity,WiFi dropping every 30 minutes in 3rd floor meeting rooms.,Medium,Resolved,Replaced faulty access point on 3rd floor.,2024-01-12 14:00:00,2024-01-15 10:00:00
+7,Grace Wilson,IT,Hardware Request,Requesting dual monitor setup for development workstation.,Low,Closed,Issued two 27-inch monitors and adjustable stand.,2024-01-14 11:30:00,2024-01-16 09:00:00
+8,Henry Martinez,Legal,Password Reset,Email password expired and cannot log in.,Medium,Resolved,Reset email password and set 90-day expiry reminder.,2024-01-15 16:00:00,2024-01-15 16:45:00
+9,Irene Taylor,Customer Support,VPN Issue,VPN connects but cannot access internal CRM.,Critical,Resolved,Updated routing table on VPN server for CRM subnet.,2024-01-17 08:00:00,2024-01-17 10:30:00
+10,James Anderson,Product,Software Installation,Need Figma desktop app and Slack installed.,Low,Closed,Installed both applications and linked to org accounts.,2024-01-18 10:15:00,2024-01-20 14:00:00
+11,Karen Thomas,Engineering,Network Connectivity,Cannot reach internal GitLab from office network.,High,Resolved,Fixed DNS resolution for internal GitLab domain.,2024-01-20 09:00:00,2024-01-20 11:00:00
+12,Liam Jackson,Sales,Email Access,Inbox not syncing on mobile Outlook app.,Medium,Resolved,Removed and re-added account with updated OAuth.,2024-01-22 14:30:00,2024-01-23 09:00:00
+13,Mia Harris,Marketing,Laptop Issue,Screen flickering on Dell laptop at random intervals.,High,Resolved,Updated GPU drivers and replaced display cable.,2024-01-24 11:00:00,2024-01-26 14:00:00
+14,Noah Clark,HR,Hardware Request,Requesting ergonomic keyboard and mouse.,Low,Closed,Issued Logitech MX Keys and MX Master 3.,2024-01-25 09:30:00,2024-01-28 11:00:00
+15,Olivia Lewis,Finance,VPN Issue,VPN authentication failing after Windows update.,High,Resolved,Rolled back VPN client to previous version.,2024-01-28 08:15:00,2024-01-28 10:00:00
+16,Peter Robinson,Operations,Password Reset,Locked out of ERP system after system migration.,Medium,Resolved,Reset ERP credentials and verified access.,2024-01-30 13:00:00,2024-01-30 14:30:00
+17,Quinn Walker,IT,Software Installation,Need Python 3.11 and VS Code with extensions.,Medium,Resolved,Installed Python and VS Code with standard dev extensions.,2024-02-01 09:00:00,2024-02-01 10:30:00
+18,Rachel Hall,Legal,Email Access,Cannot access archived emails older than 2 years.,Low,Resolved,Enabled archive mailbox access in Exchange Admin.,2024-02-03 10:00:00,2024-02-05 09:00:00
+19,Sam Allen,Customer Support,Laptop Issue,Headset not recognized by laptop USB port.,Medium,Resolved,Updated USB controller drivers and tested headset.,2024-02-05 14:00:00,2024-02-06 10:00:00
+20,Tina Young,Product,Network Connectivity,Intermittent packet loss on wired connection.,High,Resolved,Replaced faulty ethernet cable and switch port.,2024-02-07 09:30:00,2024-02-07 11:30:00
+21,Uma King,Engineering,VPN Issue,VPN certificate expired — cannot establish tunnel.,Critical,Resolved,Renewed VPN certificate and pushed update to clients.,2024-02-08 07:45:00,2024-02-08 09:00:00
+22,Victor Scott,Sales,Software Installation,Need CRM plugin installed in browser.,Low,Closed,Installed Salesforce Chrome extension and tested.,2024-02-10 11:00:00,2024-02-11 09:00:00
+23,Wendy Green,Marketing,Password Reset,Forgot HubSpot login password.,Medium,Resolved,Reset HubSpot password via admin portal.,2024-02-12 15:00:00,2024-02-12 15:30:00
+24,Xavier Adams,HR,Email Access,Cannot receive emails from external clients.,High,Resolved,Fixed broken email routing rule in Exchange.,2024-02-14 09:00:00,2024-02-14 11:30:00
+25,Yara Baker,Finance,Hardware Request,Requesting second SSD for faster data processing.,Medium,Closed,Installed 1TB NVMe SSD and migrated data.,2024-02-15 13:30:00,2024-02-19 10:00:00
+26,Zoe Carter,Operations,Laptop Issue,Laptop battery draining extremely fast.,Medium,Resolved,Replaced battery and adjusted power settings.,2024-02-17 10:00:00,2024-02-19 14:00:00
+27,Aaron Mitchell,IT,Network Connectivity,New switch not connecting to core network.,Critical,Resolved,Fixed VLAN configuration on upstream switch port.,2024-02-19 08:30:00,2024-02-19 10:30:00
+28,Bella Perez,Legal,VPN Issue,Cannot authenticate to VPN from new laptop.,High,Resolved,Enrolled device certificate and tested connection.,2024-02-20 09:15:00,2024-02-20 11:00:00
+29,Carlos Ramirez,Customer Support,Software Installation,Need Teams and Zoom installed for calls.,Low,Closed,Installed both and configured audio/video.,2024-02-22 14:00:00,2024-02-23 10:00:00
+30,Diana Evans,Product,Password Reset,Cannot log in to Jira after password expiry.,Medium,Resolved,Reset Jira password and re-linked SSO.,2024-02-24 11:30:00,2024-02-24 12:00:00
+31,Ethan Turner,Engineering,Laptop Issue,Laptop keyboard keys sticking after spill.,High,Resolved,Cleaned keyboard; replaced two keys.,2024-02-26 09:45:00,2024-02-28 14:00:00
+32,Fiona Collins,Sales,Network Connectivity,Cannot connect to guest WiFi for client demos.,Medium,Resolved,Reset guest WiFi SSID credentials.,2024-02-28 13:00:00,2024-02-29 10:00:00
+33,George Stewart,Marketing,Email Access,Email account blocked due to suspected phishing.,Critical,Resolved,Cleared malware scan flagged. Restored and secured account.,2024-03-01 08:00:00,2024-03-01 11:00:00
+34,Hannah Morris,HR,Hardware Request,Requesting webcam for hybrid meetings.,Low,Closed,Issued Logitech C920 webcam.,2024-03-03 10:30:00,2024-03-05 14:00:00
+35,Ian Rogers,Finance,VPN Issue,Split-tunnel VPN not routing traffic correctly.,High,Resolved,Updated split-tunnel routing configuration.,2024-03-05 09:00:00,2024-03-05 13:00:00
+36,Julia Reed,Operations,Password Reset,Active Directory password expired.,Medium,Resolved,Reset AD password and notified user.,2024-03-07 14:00:00,2024-03-07 14:30:00
+37,Kevin Cook,IT,Software Installation,Need Docker Desktop and WSL2 configured.,Medium,Resolved,Installed Docker Desktop with WSL2 backend.,2024-03-09 09:30:00,2024-03-09 12:00:00
+38,Laura Morgan,Legal,Laptop Issue,Laptop not booting — stuck on BIOS screen.,Critical,Resolved,Replaced failed NVMe SSD and restored from backup.,2024-03-11 08:15:00,2024-03-12 15:00:00
+39,Michael Bell,Customer Support,Email Access,Calendar invites not syncing to Outlook.,Medium,Resolved,Cleared Outlook cache and re-synced calendar.,2024-03-13 10:00:00,2024-03-14 09:00:00
+40,Nancy Murphy,Product,Network Connectivity,VPN and local network both unavailable after resume from sleep.,High,Resolved,Updated network adapter power management settings.,2024-03-15 13:30:00,2024-03-15 16:00:00
+41,Oscar Bailey,Engineering,Password Reset,GitHub Enterprise account locked after IP change.,Medium,Resolved,Unlocked account and set up IP whitelist exception.,2024-03-17 09:00:00,2024-03-17 10:30:00
+42,Paula Rivera,Sales,Hardware Request,Requesting headset for remote customer calls.,Low,Closed,Issued Jabra Evolve 40 headset.,2024-03-19 11:00:00,2024-03-21 14:00:00
+43,Quincy Cooper,Marketing,VPN Issue,VPN disconnects when switching between WiFi networks.,Medium,Resolved,Updated VPN client to support seamless reconnect.,2024-03-21 09:15:00,2024-03-22 10:00:00
+44,Rosa Richardson,HR,Software Installation,Need HR management software installed.,Medium,Resolved,Installed and configured BambooHR desktop client.,2024-03-23 14:00:00,2024-03-24 10:00:00
+45,Steven Cox,Finance,Email Access,Finance shared mailbox permissions not set correctly.,High,Resolved,Updated shared mailbox delegation in Exchange.,2024-03-25 09:30:00,2024-03-25 11:00:00
+46,Teresa Ward,Operations,Laptop Issue,External display not detected.,Medium,Resolved,Installed display driver update and tested HDMI cable.,2024-03-27 13:00:00,2024-03-28 10:00:00
+47,Ulrich Torres,IT,Network Connectivity,DHCP server not assigning IPs to new devices.,Critical,Resolved,Restarted DHCP service and expanded IP address pool.,2024-03-28 08:00:00,2024-03-28 09:30:00
+48,Valerie Peterson,Legal,Password Reset,Password reset request for remote desktop access.,Medium,Resolved,Reset RDP credentials and sent securely.,2024-03-30 10:00:00,2024-03-30 11:00:00
+49,Walter Gray,Customer Support,Hardware Request,Requesting phone headset for support line.,Low,Closed,Issued Plantronics Voyager headset.,2024-04-01 14:00:00,2024-04-03 10:00:00
+50,Xena Ramirez,Product,VPN Issue,Cannot access staging environment over VPN.,High,Resolved,Added staging subnet to VPN routing policy.,2024-04-03 09:00:00,2024-04-03 12:00:00
+51,Yvonne James,Engineering,Software Installation,Need IntelliJ IDEA and JDK 21 installed.,Medium,Resolved,Installed IntelliJ IDEA Ultimate and JDK 21.,2024-04-05 10:30:00,2024-04-05 13:00:00
+52,Zachary Watson,Sales,Email Access,Emails going to spam for all recipients.,High,Resolved,Fixed DMARC record and added to trusted senders.,2024-04-07 09:45:00,2024-04-08 11:00:00
+53,Amy Brooks,Marketing,Laptop Issue,Touchpad not working after Windows update.,Medium,Resolved,Rolled back touchpad driver to previous version.,2024-04-09 14:00:00,2024-04-10 09:00:00
+54,Brian Kelly,HR,Network Connectivity,New printer not visible on office network.,Medium,Resolved,Configured printer IP and added to network print server.,2024-04-11 10:00:00,2024-04-12 10:00:00
+55,Catherine Sanders,Finance,Password Reset,Password reset needed — system locked after audit.,Medium,Resolved,Reset and verified access to all finance systems.,2024-04-13 09:15:00,2024-04-13 10:00:00
+56,Dennis Price,Operations,VPN Issue,VPN not starting automatically on system boot.,Low,Resolved,Configured VPN client to auto-connect on startup.,2024-04-15 13:30:00,2024-04-16 10:00:00
+57,Eleanor Bennett,IT,Hardware Request,Requesting 16GB RAM upgrade for dev machine.,Medium,Closed,Upgraded RAM to 32GB total.,2024-04-17 11:00:00,2024-04-19 14:00:00
+58,Frederick Wood,Legal,Email Access,Calendar not syncing across devices.,Low,Resolved,Re-configured Exchange ActiveSync on all devices.,2024-04-19 09:00:00,2024-04-20 11:00:00
+59,Gloria Barnes,Customer Support,Laptop Issue,Laptop screen cracked — need replacement.,Critical,Resolved,Replaced display panel; data intact.,2024-04-21 08:30:00,2024-04-24 15:00:00
+60,Herbert Ross,Product,Software Installation,Need Postman and Node.js installed.,Low,Closed,Installed Node.js LTS and Postman desktop app.,2024-04-23 10:15:00,2024-04-24 10:00:00
+61,Isabella Henderson,Engineering,Network Connectivity,Network share not accessible from new machine.,Medium,Resolved,Added machine to correct AD security group.,2024-04-25 09:30:00,2024-04-25 11:30:00
+62,Jacob Coleman,Sales,VPN Issue,VPN latency too high — affecting CRM performance.,High,Resolved,Switched user to closer VPN gateway endpoint.,2024-04-27 14:00:00,2024-04-27 16:00:00
+63,Katherine Jenkins,Marketing,Password Reset,Social media scheduling tool password forgotten.,Low,Resolved,Reset Buffer password via admin portal.,2024-04-29 11:00:00,2024-04-29 11:30:00
+64,Leonard Perry,HR,Email Access,Cannot access HR shared mailbox.,High,Resolved,Granted delegation permissions for HR shared mailbox.,2024-05-01 09:00:00,2024-05-01 10:30:00
+65,Melissa Powell,Finance,Hardware Request,Requesting ergonomic chair — not IT related.,Low,Closed,Redirected to Facilities team.,2024-05-03 13:00:00,2024-05-05 09:00:00
+66,Nathan Long,Operations,Laptop Issue,Laptop fan making loud grinding noise.,High,Resolved,Replaced CPU fan assembly.,2024-05-05 10:00:00,2024-05-07 14:00:00
+67,Olivia Patterson,IT,Network Connectivity,Cannot reach external APIs from dev servers.,Critical,Resolved,Fixed outbound firewall rules blocking API ports.,2024-05-07 08:15:00,2024-05-07 10:00:00
+68,Patrick Hughes,Legal,VPN Issue,Two-factor auth app not generating correct codes.,High,Resolved,Re-enrolled device in MFA and tested login.,2024-05-09 09:30:00,2024-05-09 11:00:00
+69,Queenie Flores,Customer Support,Software Installation,Need ticketing software updated to latest version.,Medium,Resolved,Updated Zendesk desktop app to v3.2.,2024-05-11 14:00:00,2024-05-12 10:00:00
+70,Raymond Washington,Product,Password Reset,Confluence password expired.,Medium,Resolved,Reset Confluence password via Atlassian admin.,2024-05-13 10:30:00,2024-05-13 11:00:00
+71,Sandra Butler,Engineering,Email Access,Phishing email clicked — need account audit.,Critical,Resolved,"Reset credentials, scanned machine, found no malware.",2024-05-15 08:00:00,2024-05-15 12:00:00
+72,Thomas Simmons,Sales,Laptop Issue,Battery swollen — laptop unsafe to use.,Critical,Resolved,Replaced battery immediately; issued loaner.,2024-05-17 09:00:00,2024-05-17 13:00:00
+73,Uma Foster,Marketing,Network Connectivity,Office NAS drive not accessible.,High,Resolved,Rebooted NAS and verified network mount.,2024-05-19 13:30:00,2024-05-20 10:00:00
+74,Vincent Gonzales,HR,Hardware Request,Requesting document scanner for onboarding.,Medium,Closed,Provided access to shared department scanner.,2024-05-21 10:00:00,2024-05-23 14:00:00
+75,Wanda Nelson,Finance,VPN Issue,VPN profile corrupted after OS reinstall.,High,Resolved,Reinstalled VPN client and imported profile.,2024-05-23 09:15:00,2024-05-23 11:30:00
+76,Xavier Carter,Operations,Password Reset,SAP password reset after mandatory rotation.,Medium,Resolved,Reset SAP password and confirmed login.,2024-05-25 14:00:00,2024-05-25 15:00:00
+77,Yasmine Mitchell,IT,Software Installation,Need Ansible and Terraform installed for automation.,Medium,Resolved,Installed both tools and validated configuration.,2024-05-27 09:30:00,2024-05-27 12:00:00
+78,Zane Perez,Legal,Email Access,Emails delayed by 2–3 hours — not receiving in real time.,High,Resolved,Cleared email queue backlog on Exchange transport.,2024-05-29 08:30:00,2024-05-29 11:00:00
+79,Abigail Roberts,Customer Support,Laptop Issue,Laptop not charging — charger LED not lighting.,Medium,Resolved,Replaced charging cable; original was faulty.,2024-05-31 10:00:00,2024-06-01 09:00:00
+80,Benjamin Turner,Product,Network Connectivity,Slow speeds on wired gigabit connection.,Medium,Resolved,Replaced network cable; old one was Cat5e not Cat6.,2024-06-02 13:00:00,2024-06-03 10:00:00
+81,Chloe Phillips,Engineering,VPN Issue,VPN client crashes on launch after macOS update.,High,Resolved,Reinstalled compatible VPN client build for macOS 14.,2024-06-04 09:45:00,2024-06-04 11:30:00
+82,Daniel Campbell,Sales,Software Installation,Need contract e-sign tool installed.,Low,Closed,Installed DocuSign desktop app and linked account.,2024-06-06 11:00:00,2024-06-07 10:00:00
+83,Eleanor Parker,Marketing,Password Reset,Analytics platform password locked.,Medium,Resolved,Reset Google Analytics account password.,2024-06-08 14:30:00,2024-06-08 15:00:00
+84,Finn Evans,HR,Email Access,HR newsletter emails going to spam.,Medium,Resolved,Added HR sender domain to whitelist.,2024-06-10 09:00:00,2024-06-11 10:00:00
+85,Greta Edwards,Finance,Hardware Request,Requesting wrist rest for long spreadsheet sessions.,Low,Closed,Issued ergonomic gel wrist rest.,2024-06-12 13:00:00,2024-06-14 09:00:00
+86,Harold Collins,Operations,Laptop Issue,Laptop boot time extremely slow — 5+ minutes.,Medium,Resolved,Disabled startup programs and defragmented HDD.,2024-06-14 10:30:00,2024-06-15 12:00:00
+87,Ingrid Stewart,IT,Network Connectivity,Firewall blocking internal Kubernetes cluster access.,Critical,Resolved,Updated firewall rules for cluster pod CIDR.,2024-06-16 08:00:00,2024-06-16 10:00:00
+88,Jake Morris,Legal,VPN Issue,VPN connection dropping during video calls.,High,Resolved,Adjusted MTU settings on VPN adapter.,2024-06-18 09:15:00,2024-06-18 12:00:00
+89,Kira Rogers,Customer Support,Software Installation,Need customer feedback survey tool installed.,Low,Closed,Set up SurveyMonkey browser extension.,2024-06-20 14:00:00,2024-06-21 10:00:00
+90,Luca Reed,Product,Password Reset,Datadog password expired.,Medium,Resolved,Reset Datadog account via admin SSO.,2024-06-22 10:00:00,2024-06-22 10:30:00
+91,Maya Cook,Engineering,Email Access,Email signature images not displaying for recipients.,Low,Resolved,Hosted signature images on CDN instead of inline.,2024-06-24 09:30:00,2024-06-25 10:00:00
+92,Noel Morgan,Sales,Laptop Issue,Laptop running hot during video presentations.,High,Resolved,Cleaned fans and updated power profile.,2024-06-26 13:00:00,2024-06-27 10:00:00
+93,Ophelia Bell,Marketing,Network Connectivity,New office location has no internet — ISP issue.,Critical,Open,,2024-06-28 09:00:00,
+94,Pablo Murphy,HR,Hardware Request,Requesting second laptop for travel use.,Medium,In Progress,,2024-06-30 10:30:00,
+95,Quinton Bailey,Finance,VPN Issue,Cannot use VPN on corporate device while overseas.,High,Open,,2024-07-02 08:15:00,
+96,Rhea Rivera,Operations,Password Reset,Zoom password reset needed.,Low,Resolved,Reset Zoom account via admin portal.,2024-07-04 14:00:00,2024-07-04 14:30:00
+97,Sebastian Cooper,IT,Software Installation,Need Kubernetes CLI and Helm installed.,Medium,Resolved,Installed kubectl and helm with autocompletion.,2024-07-06 09:30:00,2024-07-06 12:00:00
+98,Theresa Richardson,Legal,Email Access,Cannot access court filing portal from email link.,High,In Progress,,2024-07-08 10:00:00,
+99,Ulrich Cox,Customer Support,Laptop Issue,Trackpad buttons unresponsive on MacBook.,Medium,Resolved,SMC reset resolved trackpad issue.,2024-07-10 13:30:00,2024-07-11 10:00:00
+100,Veronica Ward,Product,Network Connectivity,Intermittent DNS resolution failures.,High,Resolved,Updated DNS server settings to use internal resolver.,2024-07-12 09:00:00,2024-07-12 11:30:00
+101,William Torres,Engineering,VPN Issue,VPN not compatible with new security policy.,High,In Progress,,2024-07-14 08:30:00,
+102,Xandra Gray,Sales,Software Installation,Need Power BI Desktop installed.,Medium,Resolved,Installed Power BI Desktop and linked workspace.,2024-07-16 10:00:00,2024-07-17 09:00:00
+103,Yusuf James,Marketing,Password Reset,Mailchimp password forgotten.,Low,Resolved,Reset Mailchimp password via email verification.,2024-07-18 14:00:00,2024-07-18 14:30:00
+104,Zara Watson,HR,Email Access,HRIS email notifications not arriving.,Medium,Resolved,Fixed notification email settings in BambooHR.,2024-07-20 10:30:00,2024-07-21 10:00:00
+105,Aaron Brooks,Finance,Hardware Request,Requesting numeric keypad attachment.,Low,Closed,Issued USB numeric keypad.,2024-07-22 09:00:00,2024-07-24 14:00:00
+106,Bella Kelly,Operations,Laptop Issue,Laptop hinge broken — lid wobbles.,Medium,Resolved,Replaced hinge assembly under warranty.,2024-07-24 13:00:00,2024-07-26 15:00:00
+107,Carlos Sanders,IT,Network Connectivity,Network loop causing broadcast storm.,Critical,Resolved,Identified and disabled rogue switch port.,2024-07-26 08:00:00,2024-07-26 09:00:00
+108,Diana Price,Legal,VPN Issue,VPN certificate revoked after employee departure.,High,Resolved,Revoked old cert and issued new one to correct user.,2024-07-28 09:15:00,2024-07-28 11:00:00
+109,Elijah Bennett,Customer Support,Software Installation,Need Salesforce mobile app configured on phone.,Low,Resolved,Configured Salesforce app with SSO login.,2024-07-30 14:00:00,2024-07-31 10:00:00
+110,Faith Wood,Product,Password Reset,GitLab password expired due to policy change.,Medium,Resolved,Reset GitLab password via admin.,2024-08-01 10:00:00,2024-08-01 10:30:00
+111,Gavin Barnes,Engineering,Email Access,Cannot export emails older than 1 year.,Low,Open,,2024-08-03 09:30:00,
+112,Harper Ross,Sales,Laptop Issue,Laptop screen has dead pixels.,Medium,In Progress,,2024-08-05 13:00:00,
+113,Isla Henderson,Marketing,Network Connectivity,VPN and Slack both slow in afternoon hours.,High,Resolved,Identified peak-hour bandwidth issue; upgraded ISP plan.,2024-08-07 10:00:00,2024-08-09 14:00:00
+114,Jack Coleman,HR,Hardware Request,Requesting standing desk converter.,Low,Open,,2024-08-09 09:00:00,
+115,Katie Jenkins,Finance,VPN Issue,VPN auto-disconnect after 30 minutes idle.,Medium,Resolved,Extended VPN idle timeout to 4 hours.,2024-08-11 14:30:00,2024-08-12 10:00:00
+116,Leo Perry,Operations,Password Reset,System admin forgot server console password.,Critical,Resolved,Reset console password via recovery mode.,2024-08-13 08:00:00,2024-08-13 09:30:00
+117,Mia Powell,IT,Software Installation,Need Splunk forwarder installed on server.,High,Resolved,Installed Splunk Universal Forwarder and configured.,2024-08-15 09:30:00,2024-08-15 13:00:00
+118,Noah Long,Legal,Email Access,Legal DMS email integration broken.,High,In Progress,,2024-08-17 10:00:00,
+119,Olivia Hughes,Customer Support,Laptop Issue,Keys on keyboard backlit but not registering.,Medium,Resolved,Cleaned keyboard membrane; several keys cleared.,2024-08-19 13:00:00,2024-08-20 10:00:00
+120,Paul Flores,Product,Network Connectivity,New cloud server cannot reach on-prem database.,Critical,Resolved,Configured site-to-site VPN between cloud and on-prem.,2024-08-21 09:15:00,2024-08-21 15:00:00
+121,Quinn Washington,Engineering,VPN Issue,VPN works on personal laptop not on corporate device.,High,Resolved,Fixed certificate chain issue on corporate device.,2024-08-23 08:30:00,2024-08-23 12:00:00
+122,Rita Butler,Sales,Software Installation,Need presentation tool installed for pitches.,Low,Closed,Installed Beautiful.ai and linked account.,2024-08-25 10:00:00,2024-08-26 10:00:00
+123,Sam Simmons,Marketing,Password Reset,Analytics dashboard password reset.,Medium,Resolved,Reset Tableau credentials via SSO admin.,2024-08-27 14:00:00,2024-08-27 14:30:00
+124,Tara Foster,HR,Email Access,Cannot access onboarding email templates.,Medium,Resolved,Restored deleted templates from backup.,2024-08-29 09:30:00,2024-08-30 10:00:00
+125,Umar Gonzales,Finance,Hardware Request,Requesting USB-C dock for finance team.,Medium,Closed,Issued CalDigit USB-C dock to finance workstation.,2024-09-01 13:00:00,2024-09-03 14:00:00
+126,Vera Nelson,Operations,Laptop Issue,Laptop dock not charging when connected.,High,Resolved,Replaced dock power adapter; original was underpowered.,2024-09-03 10:30:00,2024-09-04 12:00:00
+127,Wade Carter,IT,Network Connectivity,New firewall rules blocking internal monitoring.,High,Resolved,Updated firewall policy for Prometheus/Grafana ports.,2024-09-05 08:15:00,2024-09-05 11:00:00
+128,Xena Mitchell,Legal,VPN Issue,VPN error after rejoining domain.,High,Resolved,Re-enrolled laptop to domain and re-provisioned VPN.,2024-09-07 09:00:00,2024-09-07 13:00:00
+129,Yolanda Perez,Customer Support,Software Installation,Need Chrome extension for ticket tagging.,Low,Closed,Installed and configured Zendesk Chrome extension.,2024-09-09 14:00:00,2024-09-10 10:00:00
+130,Zack Roberts,Product,Password Reset,Jira admin account locked — need immediate access.,Critical,Resolved,Unlocked Jira admin account and reset password.,2024-09-11 07:45:00,2024-09-11 08:30:00
+131,Amber Turner,Engineering,Email Access,Outbound emails flagged as spam by recipients.,High,Resolved,Updated PTR record and SPF to include new mail server.,2024-09-13 09:30:00,2024-09-13 13:00:00
+132,Brady Phillips,Sales,Laptop Issue,Laptop not recognizing USB-C charger.,Medium,Resolved,Replaced USB-C port on laptop motherboard.,2024-09-15 13:00:00,2024-09-17 15:00:00
+133,Claire Campbell,Marketing,Network Connectivity,Cannot access shared Google Drive files from office.,Medium,Resolved,Fixed Google Drive proxy settings in browser.,2024-09-17 10:00:00,2024-09-18 10:00:00
+134,Derek Parker,HR,Hardware Request,Requesting second 4K monitor for HR workstation.,Medium,Closed,Issued 27-inch 4K monitor and new HDMI cable.,2024-09-19 09:00:00,2024-09-21 14:00:00
+135,Eva Evans,Finance,VPN Issue,Split DNS not resolving internal hostnames over VPN.,High,Resolved,Added internal DNS suffix to VPN connection profile.,2024-09-21 14:00:00,2024-09-22 10:00:00
+136,Felix Edwards,Operations,Password Reset,Operations dashboard password reset request.,Low,Resolved,Reset password via dashboard admin settings.,2024-09-23 10:30:00,2024-09-23 11:00:00
+137,Gina Collins,IT,Software Installation,Need ELK stack installed on monitoring server.,High,Resolved,Installed Elasticsearch, Logstash, Kibana stack.,2024-09-25 09:15:00,2024-09-26 14:00:00
+138,Hank Stewart,Legal,Email Access,Automatic reply not working while on leave.,Low,Resolved,Enabled and configured Out-of-Office auto-reply.,2024-09-27 13:00:00,2024-09-28 10:00:00
+139,Isla Morris,Customer Support,Laptop Issue,Laptop audio not working — no sound output.,Medium,Resolved,Reinstalled audio drivers and tested speakers.,2024-09-29 10:00:00,2024-09-30 09:00:00
+140,Jay Rogers,Product,Network Connectivity,Wi-Fi 6 adapter not connecting to office AP.,Medium,Resolved,Updated AP firmware to support Wi-Fi 6 standard.,2024-10-01 09:30:00,2024-10-02 10:00:00
+141,Kim Reed,Engineering,VPN Issue,VPN not working after switching from WiFi to ethernet.,Medium,Resolved,Updated VPN adapter binding preference.,2024-10-03 14:00:00,2024-10-03 16:00:00
+142,Lars Cook,Sales,Software Installation,Need QuickBooks Desktop installed.,Medium,Resolved,Installed QuickBooks and connected to company file.,2024-10-05 10:00:00,2024-10-06 10:00:00
+143,Monica Morgan,Marketing,Password Reset,Twitter Ads account locked.,Low,Resolved,Recovered account via 2FA recovery codes.,2024-10-07 09:00:00,2024-10-07 10:00:00
+144,Neil Bell,HR,Email Access,HR team inbox not accessible to new member.,Medium,Resolved,Added new user to HR team mailbox delegates.,2024-10-09 13:30:00,2024-10-10 10:00:00
+145,Opal Murphy,Finance,Hardware Request,Requesting UPS for finance workstation.,High,Closed,Installed APC UPS for workstation and server rack.,2024-10-11 10:00:00,2024-10-14 14:00:00
+146,Pete Bailey,Operations,Laptop Issue,Laptop BIOS password forgotten after IT reset.,High,Resolved,Cleared BIOS password via motherboard jumper.,2024-10-13 08:30:00,2024-10-14 10:00:00
+147,Rae Rivera,IT,Network Connectivity,VoIP phones losing calls during peak hours.,Critical,Resolved,Configured QoS rules to prioritize VoIP traffic.,2024-10-15 09:00:00,2024-10-15 12:00:00
+148,Seth Cooper,Legal,VPN Issue,VPN blocks access to cloud legal research tools.,High,Resolved,Added legal research domain to VPN split-exclude list.,2024-10-17 14:00:00,2024-10-17 16:30:00
+149,Tess Richardson,Customer Support,Software Installation,Need updated version of helpdesk ticketing tool.,Medium,Open,,2024-10-19 10:30:00,
+150,Uma Cox,Product,Password Reset,Mixpanel dashboard password expired.,Medium,Resolved,Reset Mixpanel password via SSO admin.,2024-10-21 09:00:00,2024-10-21 09:30:00
+151,Vince Ward,Engineering,Email Access,Emails not sending from CI/CD pipeline.,High,Open,,2024-10-23 08:00:00,
+152,Wilma Torres,Sales,Laptop Issue,Laptop touchscreen not working correctly.,Medium,In Progress,,2024-10-25 13:00:00,
+153,Xena Gray,Marketing,Network Connectivity,Wireless access point in marketing pod dropped.,High,Resolved,Replaced failed AP and reconfigured SSID.,2024-10-27 10:00:00,2024-10-28 10:00:00
+154,Yvette James,HR,Hardware Request,Requesting noise-canceling headphones for focus work.,Low,Open,,2024-10-29 09:30:00,
+155,Zack Watson,Finance,VPN Issue,Finance team cannot VPN into backup data center.,Critical,Resolved,Restored VPN gateway at backup DC after failover test.,2024-10-31 08:15:00,2024-10-31 11:00:00
+156,Adrian Brooks,Operations,Password Reset,SharePoint admin password reset request.,Medium,Resolved,Reset SharePoint admin via M365 admin center.,2024-11-02 14:00:00,2024-11-02 15:00:00
+157,Bianca Kelly,IT,Software Installation,Need Grafana and Prometheus installed.,High,Resolved,Installed monitoring stack and configured dashboards.,2024-11-04 09:30:00,2024-11-05 14:00:00
+158,Chad Sanders,Legal,Email Access,Legal department emails routing to wrong folder.,Medium,Resolved,Fixed Outlook routing rule mislabeling legal emails.,2024-11-06 10:00:00,2024-11-07 09:00:00
+159,Daisy Price,Customer Support,Laptop Issue,Laptop microphone not working for calls.,High,Resolved,Updated audio drivers and tested with multiple apps.,2024-11-08 13:00:00,2024-11-09 10:00:00
+160,Earl Bennett,Product,Network Connectivity,API gateway latency spike affecting mobile app.,Critical,Resolved,Scaled API gateway instances and cleared routing cache.,2024-11-10 09:00:00,2024-11-10 11:00:00
+161,Faye Wood,Engineering,VPN Issue,Cannot authenticate to internal SSO over VPN.,High,In Progress,,2024-11-12 08:30:00,
+162,Gage Barnes,Sales,Software Installation,Need CRM integration plugin for Outlook.,Medium,Resolved,Installed Salesforce Outlook plugin and configured.,2024-11-14 10:00:00,2024-11-15 10:00:00
+163,Hana Ross,Marketing,Password Reset,Brand portal account locked.,Low,Resolved,Unlocked account via brand portal admin.,2024-11-16 14:00:00,2024-11-16 14:30:00
+164,Ivan Henderson,HR,Email Access,Payslip emails not received by employees.,Critical,Resolved,Fixed payroll system SMTP relay configuration.,2024-11-18 08:00:00,2024-11-18 10:00:00
+165,Jill Coleman,Finance,Hardware Request,Requesting USB drive for secure data transfer.,Medium,Closed,Issued encrypted USB drive (Kingston IronKey).,2024-11-20 13:30:00,2024-11-22 14:00:00
+166,Kurt Jenkins,Operations,Laptop Issue,Laptop camera not recognized in video apps.,Medium,Resolved,Reinstalled camera drivers and tested in Teams.,2024-11-22 10:00:00,2024-11-23 10:00:00
+167,Luna Perry,IT,Network Connectivity,VLAN misconfiguration blocking dev server access.,Critical,Resolved,Corrected VLAN assignment on core switch port.,2024-11-24 08:15:00,2024-11-24 10:00:00
+168,Max Powell,Legal,VPN Issue,VPN incompatible with new legal firm collaboration tool.,High,Resolved,Set up VPN exclusion for legal collaboration FQDN.,2024-11-26 09:00:00,2024-11-26 13:00:00
+169,Nora Long,Customer Support,Software Installation,Need updated call recording software.,Medium,Open,,2024-11-28 14:00:00,
+170,Owen Hughes,Product,Password Reset,PagerDuty account locked after failed logins.,High,Resolved,Unlocked PagerDuty and reset password.,2024-11-30 10:30:00,2024-11-30 11:00:00
+171,Pia Flores,Engineering,Email Access,Engineering mailing list bounce-backs on send.,Medium,Resolved,Fixed mailing list address and cleaned member list.,2024-12-02 09:30:00,2024-12-03 10:00:00
+172,Ray Washington,Sales,Laptop Issue,Screen brightness stuck at minimum.,Low,Resolved,Updated Intel HD display driver.,2024-12-04 13:00:00,2024-12-04 16:00:00
+173,Sara Butler,Marketing,Network Connectivity,Office printer offline after router upgrade.,Medium,Resolved,Reassigned printer static IP after subnet change.,2024-12-06 10:00:00,2024-12-07 10:00:00
+174,Tony Simmons,HR,Hardware Request,Requesting label printer for HR forms.,Low,Open,,2024-12-08 09:00:00,
+175,Ursula Foster,Finance,VPN Issue,VPN timeout too short for month-end close work.,Medium,Resolved,Extended VPN session timeout for Finance role.,2024-12-10 14:00:00,2024-12-10 15:30:00
+176,Vance Gonzales,Operations,Password Reset,Operations KPI dashboard password reset.,Low,Resolved,Reset dashboard credentials.,2024-12-12 10:30:00,2024-12-12 11:00:00
+177,Willa Nelson,IT,Software Installation,Need GitLab Runner installed on CI server.,High,Resolved,Installed and registered GitLab Runner with CI pipeline.,2024-12-14 09:15:00,2024-12-15 12:00:00
+178,Xander Carter,Legal,Email Access,Legal hold notification emails not working.,Critical,Resolved,Fixed Legal Hold policy notification routing.,2024-12-16 08:00:00,2024-12-16 11:00:00
+179,Yuki Mitchell,Customer Support,Laptop Issue,Laptop not syncing files to OneDrive.,Medium,In Progress,,2024-12-18 13:00:00,
+180,Zoe Perez,Product,Network Connectivity,Load balancer dropping HTTPS connections randomly.,Critical,Open,,2024-12-20 09:30:00,
+181,Aiden Roberts,Engineering,VPN Issue,VPN IP pool exhausted — users cannot connect.,Critical,Open,,2024-12-22 08:00:00,
+182,Brooke Turner,Sales,Software Installation,Need PowerPoint template library installed.,Low,Closed,Copied template library to shared drive.,2024-12-24 10:00:00,2024-12-26 14:00:00
+183,Chase Phillips,Marketing,Password Reset,Instagram Business account locked.,Medium,Resolved,Recovered via Facebook Business manager.,2024-12-26 14:00:00,2024-12-26 15:00:00
+184,Drew Campbell,HR,Email Access,HR cannot access union communication portal via email.,High,Open,,2024-12-28 09:00:00,
+185,Ella Parker,Finance,Hardware Request,Requesting conference room display upgrade.,High,In Progress,,2024-12-30 10:00:00,
+186,Flynn Evans,Operations,Laptop Issue,Laptop suspend/resume causes display flicker.,Medium,Open,,2024-12-31 13:00:00,
+187,Grace Edwards,IT,Network Connectivity,Switch port showing err-disabled state.,High,Resolved,Cleared err-disabled state and fixed port security config.,2024-01-22 09:30:00,2024-01-22 11:00:00
+188,Hugo Collins,Legal,VPN Issue,New employee VPN account not provisioned.,Medium,Resolved,Provisioned VPN account and credentials.,2024-02-13 10:00:00,2024-02-13 11:30:00
+189,Iris Stewart,Customer Support,Software Installation,Need screen sharing tool for remote support.,Low,Closed,Installed AnyDesk and configured access permissions.,2024-03-16 14:00:00,2024-03-18 10:00:00
+190,Jasper Morris,Product,Password Reset,Amplitude analytics password expired.,Low,Resolved,Reset Amplitude account via SSO.,2024-04-18 10:00:00,2024-04-18 10:30:00
+191,Kayla Rogers,Engineering,Email Access,SMTP authentication failing on alert system.,High,Resolved,Rotated SMTP credentials and updated config.,2024-05-20 09:00:00,2024-05-20 11:00:00
+192,Leo Reed,Sales,Laptop Issue,Laptop keyboard shortcuts not functioning.,Low,Resolved,Reset keyboard shortcuts via control panel.,2024-06-21 13:30:00,2024-06-22 10:00:00
+193,Mila Cook,Marketing,Network Connectivity,Cannot reach social media scheduler from office network.,Medium,Resolved,Whitelisted scheduler domain in proxy config.,2024-07-23 10:00:00,2024-07-24 10:00:00
+194,Ned Morgan,HR,Hardware Request,Requesting tablet for field HR interviews.,Medium,In Progress,,2024-08-25 09:00:00,
+195,Ora Bell,Finance,VPN Issue,VPN log showing repeated auth failures overnight.,High,Resolved,Identified and disabled compromised account. Reset creds.,2024-09-26 08:00:00,2024-09-26 10:00:00
+196,Percy Murphy,Operations,Password Reset,Ops monitoring tool password forgotten.,Low,Resolved,Reset monitoring tool password via admin.,2024-10-28 14:00:00,2024-10-28 14:30:00
+197,Queenie Bailey,IT,Software Installation,Need Vault (HashiCorp) installed for secrets management.,High,Resolved,Installed and initialized Vault with seal/unseal keys.,2024-11-29 09:30:00,2024-11-30 14:00:00
+198,Rosa Rivera,Legal,Email Access,Legal team cannot access court document portal via email link.,High,Open,,2024-12-05 10:00:00,
+199,Shane Cooper,Customer Support,Laptop Issue,Laptop NumLock toggling on its own.,Low,Resolved,Disabled auto-NumLock in BIOS settings.,2024-07-15 13:00:00,2024-07-16 10:00:00
+200,Tina Richardson,Product,Network Connectivity,VPN and Wi-Fi conflict causing network loop.,Critical,Resolved,Disabled conflicting bridge adapter on VPN client.,2024-08-28 08:15:00,2024-08-28 10:00:00
+201,Ula Cox,Engineering,VPN Issue,VPN kill switch not working correctly.,Medium,Resolved,Reconfigured VPN kill switch policy.,2024-09-30 09:30:00,2024-10-01 11:00:00
+202,Vern Ward,Sales,Software Installation,Need sales analytics reporting tool installed.,Medium,Resolved,Installed Gong.io desktop app and configured account.,2024-10-31 10:00:00,2024-11-01 10:00:00
+203,Wren Torres,Marketing,Password Reset,Canva team account password locked.,Low,Resolved,Reset Canva password via admin console.,2024-11-15 14:00:00,2024-11-15 14:30:00
+204,Xyla Gray,HR,Email Access,Onboarding portal email verification not arriving.,High,Resolved,Fixed email relay for onboarding tool.,2024-12-01 09:00:00,2024-12-01 11:00:00
+205,Yann James,Finance,Hardware Request,Requesting thermal label printer for invoices.,Low,Open,,2024-12-10 13:30:00,
+206,Zuri Watson,Operations,Laptop Issue,Docking station not passing through audio.,Medium,Resolved,Updated docking station firmware.,2024-11-05 10:00:00,2024-11-06 10:00:00
+207,vpn issue,IT,vpn issue,VPN not connecting since morning. Urgent!,high,open,,2024-06-15 09:00:00,
+208,Alice Johnson,Engineering,VPN Issue,Cannot connect to VPN from home office.,High,Resolved,Reconfigured VPN client and updated credentials.,2024-01-03 09:15:00,2024-01-03 14:30:00
+209,Bob Smith,Sales,Password Reset,Locked out of Salesforce account after too many failed attempts.,Medium,Resolved,Reset password and enforced MFA enrollment.,2024-01-05 10:00:00,2024-01-05 11:45:00
+210,Carol White,Marketing,Software Installation,Need Adobe Creative Suite installed on new MacBook.,Medium,Resolved,Installed Adobe CC and configured licenses.,2024-01-07 08:30:00,2024-01-08 09:00:00
+211,Mark Davis,Finance,pwd reset,Forgot login after returning from leave.,med,open,,2024-07-10 08:00:00,
+212,Sandra Lee,HR,email,Emails bouncing for all external recipients.,HIGH,Resolved,Fixed SPF and DMARC configuration.,2024-08-12 09:00:00,2024-08-12 12:00:00
+213,Tim Johnson,IT,network,Cannot reach internal services from wired connection.,CRITICAL,Resolved,Found loop on switch; disabled port.,2024-09-14 07:30:00,2024-09-14 08:30:00
+214,Gary Chen,Engineering,laptop,Laptop keyboard completely unresponsive.,high,In Progress,,2024-10-16 10:00:00,
+215,Peter Blake,Sales,sw installation,Need Power BI installed for sales reporting.,low,closed,Installed Power BI Desktop.,2024-11-18 09:00:00,2024-11-20 10:00:00
+216,Lisa Park,Legal,hardware,Requesting second monitor for legal research.,medium,closed,Issued second 24-inch monitor.,2024-12-02 13:00:00,2024-12-04 14:00:00
+217,Alice Johnson,Engineering,VPN Issue,Cannot connect to VPN from home office.,High,Resolved,Reconfigured VPN client and updated credentials.,2024-01-03 09:15:00,2024-01-03 14:30:00
+218,Bob Smith,Sales,Password Reset,Locked out of Salesforce account after too many failed attempts.,Medium,Resolved,Reset password and enforced MFA enrollment.,2024-01-05 10:00:00,2024-01-05 11:45:00
+219,Carol White,Marketing,Software Installation,Need Adobe Creative Suite installed on new MacBook.,Medium,Resolved,Installed Adobe CC and configured licenses.,2024-01-07 08:30:00,2024-01-08 09:00:00
+220,invalid_date_user,IT,VPN Issue,VPN not working.,High,Open,,not-a-date,
+221,James Walker,Customer Support,VPN Issue,Unable to connect to VPN from branch office.,High,Resolved,Updated VPN client and reconfigured server address.,2024-03-10 09:00:00,2024-03-10 13:00:00
+222,Nina Scott,Engineering,Network Connectivity,SSH tunneling not working for remote dev.,Medium,Resolved,Fixed firewall rule blocking port 22 on dev server.,2024-04-20 10:00:00,2024-04-20 12:00:00
+223,Oscar Brown,Finance,Email Access,Cannot send emails with large attachments.,Medium,Resolved,Increased Exchange attachment size limit to 25MB.,2024-05-25 09:30:00,2024-05-26 10:00:00
+224,Penny Green,Marketing,Laptop Issue,Laptop HDMI port not working for presentations.,High,Resolved,Replaced HDMI port on laptop board.,2024-06-28 13:00:00,2024-06-30 15:00:00
+225,Roger White,HR,Software Installation,Need payroll software installed on HR workstation.,High,Resolved,Installed ADP Workforce Now desktop client.,2024-07-30 09:00:00,2024-07-30 13:00:00

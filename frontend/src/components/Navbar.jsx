@@ -32,6 +32,16 @@ export default function Navbar() {
             >
               All Tickets
             </NavLink>
+            <NavLink
+              to="/analytics"
+              className={({ isActive }) =>
+                `px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  isActive ? "text-indigo-600 bg-indigo-50" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"
+                }`
+              }
+            >
+              Analytics
+            </NavLink>
           </div>
 
           <Link to="/tickets/new" className="btn-primary">

@@ -90,3 +90,89 @@ class StatsResponse(BaseModel):
     by_priority: Dict[str, int]
     by_category: Dict[str, int]
     recent_tickets: List[TicketResponse]
+
+
+# ── Analytics / ETL schemas ──────────────────────────────────────────────────
+
+class CategoryDistributionItem(BaseModel):
+    category: str
+    count: int
+    percentage: float
+
+
+class CategoryDistributionResponse(BaseModel):
+    data: List[CategoryDistributionItem]
+    total: int
+
+
+class PriorityDistributionItem(BaseModel):
+    priority: str
+    count: int
+    percentage: float
+
+
+class PriorityDistributionResponse(BaseModel):
+    data: List[PriorityDistributionItem]
+    total: int
+
+
+class DepartmentBreakdownItem(BaseModel):
+    department: str
+    total: int
+    open: int
+    in_progress: int
+    resolved: int
+    closed: int
+
+
+class DepartmentBreakdownResponse(BaseModel):
+    data: List[DepartmentBreakdownItem]
+
+
+class MonthlyTrendItem(BaseModel):
+    month: str
+    total: int
+    open: int
+    in_progress: int
+    resolved: int
+    closed: int
+
+
+class MonthlyTrendResponse(BaseModel):
+    data: List[MonthlyTrendItem]
+
+
+class ResolutionTimeItem(BaseModel):
+    month: str
+    avg_hours: float
+    min_hours: float
+    max_hours: float
+    ticket_count: int
+
+
+class ResolutionTimeResponse(BaseModel):
+    data: List[ResolutionTimeItem]
+    overall_avg_hours: Optional[float]
+
+
+class EtlJobStatus(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    batch_id: str
+    status: str
+    csv_filename: Optional[str]
+    rows_extracted: Optional[int]
+    rows_loaded: Optional[int]
+    rows_skipped: Optional[int]
+    error_message: Optional[str]
+    started_at: datetime
+    finished_at: Optional[datetime]
+
+
+class EtlStatusResponse(BaseModel):
+    latest_job: Optional[EtlJobStatus]
+    total_analytics_records: int
+
+
+class EtlTriggerRequest(BaseModel):
+    csv_filename: str = "historical_tickets.csv"

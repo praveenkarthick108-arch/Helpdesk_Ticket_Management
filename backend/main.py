@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 import crud
 from database import Base, engine, get_db
 from routers.tickets import router as tickets_router
+from routers.analytics import router as analytics_router
 from schemas import IssueCategory, Priority, Status, TicketListResponse
 
 Base.metadata.create_all(bind=engine)
@@ -14,7 +15,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI(
     title="Helpdesk Ticket Management API",
     description="REST API for managing internal IT support tickets",
-    version="1.0.0",
+    version="2.0.0",
 )
 
 app.add_middleware(
@@ -26,6 +27,7 @@ app.add_middleware(
 )
 
 app.include_router(tickets_router)
+app.include_router(analytics_router)
 
 
 @app.get("/", tags=["health"])

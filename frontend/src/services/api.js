@@ -29,4 +29,15 @@ export const ticketService = {
   getStats: () => api.get("/tickets/stats"),
 };
 
+export const analyticsService = {
+  getCategoryDistribution: () => api.get("/analytics/category-distribution"),
+  getPriorityDistribution: () => api.get("/analytics/priority-distribution"),
+  getDepartmentBreakdown: () => api.get("/analytics/department-breakdown"),
+  getMonthlyTrends: () => api.get("/analytics/monthly-trends"),
+  getResolutionTime: () => api.get("/analytics/resolution-time"),
+  getEtlStatus: () => api.get("/analytics/etl-status"),
+  runEtl: (csvFilename = "historical_tickets.csv") =>
+    api.post("/analytics/run-etl", { csv_filename: csvFilename }),
+};
+
 export default api;

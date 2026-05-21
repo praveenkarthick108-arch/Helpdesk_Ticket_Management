@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import TicketList from "./pages/TicketList";
 import TicketDetail from "./pages/TicketDetail";
 import CreateTicket from "./pages/CreateTicket";
+import Analytics from "./pages/Analytics";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/tickets" element={<TicketList />} />
             <Route path="/tickets/new" element={<CreateTicket />} />
             <Route path="/tickets/:id" element={<TicketDetail />} />
+            <Route path="/analytics" element={<Analytics />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
